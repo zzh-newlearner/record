@@ -1,3 +1,8 @@
+<!--
+ * @Author: zzh
+ * @Date: 2023-04-18 12:09:20
+ * @Description: 
+-->
 # com.videogo 6.8.1 has Incorrect Access Control
 
 ## Vulnerability Type:
@@ -19,3 +24,5 @@ When obtaining alarm information, the device ID is included in the request, The 
 ![get_alarm_response](./img/get_alarm_response.png)
 After changing the device ID, you can get the image URL of the corresponding device
 ![change device](./img/change_device.png)
+With this URL, you can access the alarm image without permission
+![see_pic](./img/see_pic.png)
